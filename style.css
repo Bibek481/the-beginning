@@ -1,0 +1,33 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+.main > .logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+body > div > div.left.card > img{
+  width: 500px;
+height: auto;
+}
+
