@@ -6,19 +6,21 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 .main {
   flex: 1;
 }
 
-.main > .logo {
+.logo {
   width: 100px;
-  height: 100px;
+  height: auto;
   float: left;
+
 }
 
 h1 {
   font-size: 5rem;
-  margin: 0px;
+  margin: 20px;
 }
 
 footer {
@@ -26,8 +28,61 @@ footer {
   color: midnightblue;
 }
 
-body > div > div.left.card > img{
-  width: 500px;
-height: auto;
+.card{
+  width: 40%;
 }
 
+.left{
+  float: left;
+  margin: 5px;
+}
+
+
+.right{
+  float: right;
+  margin: 5px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.card-title{
+  font-size: 25px;
+  margin: 0px;
+}
+
+
+.card-text{
+  font-size: 20px;
+  margin: 0px;
+  text-align: justify;
+}
+
+@media (max-width: 680px){
+  .logo{
+    width: 50px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    color: midnightblue;
+  }
+  
+  .card{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+}
